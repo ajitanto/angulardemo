@@ -25,7 +25,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/crypto-js/crypto-js.js",
+            "node_modules/utf8-encoding/utf8-encoding.js"]
           },
           "configurations": {
             "production": {
@@ -97,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5ebd61c3-e84d-4509-9d5b-50b079a8b031"
   }
 }
